@@ -10,8 +10,10 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Gracias por rellenar la encuesta GimParo</title>
+        <%@ include file="WEB-INF/jspf/bootstrap.jspf" %>
     </head>
     <body>
+      <div class="container">
         <h2>Gracias por rellenar la encuesta de GimParo</h2>
         <p>
             <jsp:getProperty name="Encuesta" property="nombreCompleto" />
@@ -38,5 +40,8 @@
                 }
             %>
         </ul>
+        
+    </div>
+        <%@ include file="WEB-INF/jspf/scripts.jspf" %>
     </body>
 </html>

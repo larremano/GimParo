@@ -10,8 +10,10 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>GimParo - Aplicación para gimnasios</title>
+        <%@ include file="WEB-INF/jspf/bootstrap.jspf" %>
     </head>
     <body>
+        <div class="container">
         <h1>Futura página principal de GimParo, ahora es una prueba </h1>
         
         <!-- Prueba para crear el primer Servlet y la primera EJB -->
@@ -47,5 +49,9 @@
             </table>
 
         </form>
+        
+        </div>
+    	<%@ include file="WEB-INF/jspf/scripts.jspf" %>
+
     </body>
 </html>

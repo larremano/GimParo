@@ -10,9 +10,15 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Login</title>
+        <%@ include file="WEB-INF/jspf/bootstrap.jspf" %>
     </head>
     <body>
+      <div class="container">
         <p>Por favor escribe tu nombre de usuario y contraseña para acceder a GimParo</p>            
         <%@ include file="WEB-INF/jspf/formlogin.jspf" %>
+      
+      </div>
+        <%@ include file="WEB-INF/jspf/scripts.jspf" %>
+      
     </body>
 </html>
